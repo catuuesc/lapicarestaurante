@@ -722,7 +722,7 @@ h6 {
 
     .link-nav {
         color: white;
-        font-size: 1.5rem;
+        font-size: 18px;
         text-decoration: none;
         transition: color 0.3s;
     }
@@ -747,7 +747,7 @@ h6 {
     
     .eng, .slash {
         color: #f7b32b;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     /*INICIO GENERAL*/
@@ -767,6 +767,9 @@ h6 {
 
     /*SOBRE NOSOTROS*/
 
+    .sobre-nosotros {
+        height: auto !important;
+    }
     .texto-nosotros {
         flex-direction: column;
         margin: 50px 0px 0px 0px;
@@ -796,8 +799,6 @@ h6 {
     .equipo2 {
         display: none;
     }
-
-
 
     /*MENU- carta movil*/
 
