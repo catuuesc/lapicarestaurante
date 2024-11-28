@@ -647,7 +647,16 @@ h6 {
 .encuentranos-movil {
     display: none;
 }
+
+
 /*inicio - nav bar*/
+.carta-movil-nav {
+    display: none;
+}
+
+.encuentranos-movil-nav {
+    display: none;
+}
 
 @media only screen and (max-width: 1024px) {
 
@@ -667,6 +676,22 @@ h6 {
     }
 
     /*inicio - nav bar*/
+
+    .carta-movil-nav {
+        display: block;
+    }
+    
+    .encuentranos-movil-nav {
+        display: block;
+    }
+
+    .menu-nav {
+        display: none;
+    }
+
+    .ubicacion-nav {
+        display: none;
+    }
 
     .inicio {
         width: 100vw;
