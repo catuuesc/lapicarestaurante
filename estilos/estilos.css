@@ -657,7 +657,7 @@ h6 {
     }
 
     body {
-        width: 110%;
+        width: 100%;
         overflow-x: hidden;  /* Evita desbordamientos horizontales */
     }
 
