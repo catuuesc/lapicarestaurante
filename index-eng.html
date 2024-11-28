@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Forum&family=Tenor+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>La Pica - Restaurant</title>
+</head>
+<body>
+    <section class="inicio" id="inicio">
+        <header>
+            <img src="./imagenes/logo-blanco.png" alt="Logo" class="logo">
+            <label for="menu-toggle" class="menu-icon">
+                <i class="fas fa-bars"></i> <!-- Ícono del menú hamburguesa -->
+            </label>
+            <input type="checkbox" id="menu-toggle">
+            <nav>
+                <ul class="barra-nav">
+                    <li class="close-menu">
+                        <label for="menu-toggle" class="close-icon">
+                            <i class="fas fa-times"></i> <!-- Ícono de cierre -->
+                        </label>
+                    </li>
+                    <li>
+                        <a href="#inicio" class="link-nav">Home</a>
+                    </li>
+                    <li>
+                        <a href="#nosotros" class="link-nav">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#carta" class="link-nav">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#galeria" class="link-nav">Galery</a>
+                    </li>
+                    <li>
+                        <a href="#encuentranos" class="link-nav">Location</a>
+                    </li>
+                    <div class="idioma">
+                        <a href="./index-esp.html" class="esp">ESP</a>
+                        <p class="slash">/</p>
+                        <a href="./index-eng.html" class="eng">ENG</a>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <div class="inicio-titulos">
+            <div class="titulos">
+                <h1>LA PICA</h1>
+                <h2>RESTAURANT</h2>
+            </div>
+            <div class="sub-titulo">
+                <img src="./imagenes/punto-blanco.png" alt="Icono punto" class="punto-blanco">
+                <p class="p-sub">The Taste of Homemade</p>
+                <img src="./imagenes/punto-blanco.png" alt="Icono punto" class="punto-blanco">
+            </div>
+        </div>
+        <div class="fixed-buttons">
+            <a href="" target="_blank" class="whatsapp-container">
+                <span class="whatsapp-message">Hello, let's talk! <span class="emoji">😊</span></span>
+                <img class="whatsapp" src="./imagenes/whatsapp.png" alt="WhatsApp">
+            </a>
+        </div>
+    </section>
+    <section class="sobre-nosotros" id="nosotros">
+        <div class="texto-nosotros">
+            <h3>ABOUT US</h3>
+            <p class="p-nosotros">In the heart of Coyhaique, 'La Pica' is a family-run business born out of a passion for 
+                homemade cooking and local tradition. With recipes passed down from generation to generation, we offer our 
+                diners the authentic taste of home-cooked meals, made with fresh and local ingredients. Each dish is a 
+                reflection of the rich culinary heritage of Chilean Patagonia, providing an experience that connects people 
+                with their roots and the warmth of a home.</p>
+        </div>
+        <div  class="img-nosotros">
+            <img src="./imagenes/nosotros1.png" alt="Equipo" class="equipo">
+            <img src="./imagenes/nosotros1.png" alt="Equipo" class="equipo equipo2">
+        </div>
+    </section>
+    <section class="carta" id="carta">
+        <p class="h4">MENU</p>
+        <div class="menus">
+            <div class="menu-container">
+                <a href="./carta/Desayunos.pdf" target="_blank" class="img-wrapper" rel="noopener noreferrer">
+                    <img src="./imagenes/desayunos.png" alt="Menú de Desayunos" class="img-cartas">
+                    <div class="text-overlay">
+                        <p class="titulo-menu">BREAKFAST</p>
+                        <p class="p-menu">To start the day</p>
+                    </div>
+                </a>
+            </div>
+            <div class="almuerzo"> 
+                <div class="menu-container">
+                    <a href="./carta/Almuerzos.pdf" target="_blank" class="img-wrapper" rel="noopener noreferrer">
+                        <img src="./imagenes/almuerzos.png" alt="Menú de Desayunos" class="img-cartas">
+                        <div class="text-overlay">
+                            <p class="titulo-menu">LUNCH</p>
+                            <p class="p-menu">Unique and traditional dishes</p>
+                        </div>
+                    </a>
+                </div>
+                <a href="./carta/bebidas.pdf" class="bebestibles" rel="noopener noreferrer">Drinks & Cocktails</a>
+            </div>
+            <div class="menu-container">
+                <a href="./carta/Extras.pdf" target="_blank" class="img-wrapper" rel="noopener noreferrer">
+                    <img src="./imagenes/extras.png" alt="Menú de Desayunos" class="img-cartas">
+                    <div class="text-overlay">
+                        <p class="titulo-menu">EXTRAS</p>
+                        <p class="p-menu">Our must-haves</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="carta-movil" id="carta">
+        <p class="h4">MENU</p>
+        <div class="menus">
+            <div class="menu-container-movil">
+                <a href="./carta/Desayunos.pdf" target="_blank" class="img-wrapper-movil" rel="noopener noreferrer">
+                    <img src="./imagenes/desayuno-movil.png" alt="Menú de Desayunos" class="img-cartas">
+                    <div class="text-overlay-movil">
+                        <p class="titulo-menu">BREAKFAST</p>
+                    </div>
+                </a>
+                <a href="./carta/Almuerzos.pdf" target="_blank" class="img-wrapper-movil" rel="noopener noreferrer">
+                    <img src="./imagenes/almuerzo-movil.png" alt="Menú de Almuerzos" class="img-cartas">
+                    <div class="text-overlay-movil">
+                        <p class="titulo-menu">LUNCH</p>
+                    </div>
+                </a>
+                <a href="./carta/Extras.pdf" target="_blank" class="img-wrapper-movil" rel="noopener noreferrer">
+                    <img src="./imagenes/extras-movil.png" alt="Extras del menú" class="img-cartas">
+                    <div class="text-overlay-movil">
+                        <p class="titulo-menu">EXTRA <br> OPTIONS</p>
+                    </div>
+                </a>
+                <a href="./carta/bebidas.pdf" target="_blank" class="img-wrapper-movil" rel="noopener noreferrer">
+                    <img src="./imagenes/bebidas-movil.png" alt="Bebidas" class="img-cartas">
+                    <div class="text-overlay-movil">
+                        <p class="titulo-menu">DRINKS & <br> COCKTAILS</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="comentarios" id="comentarios">
+        <div class="elfsight-app-f3b38fe2-fb06-4954-a039-fa009a241b05" data-elfsight-app-lazy></div>
+    </section>
+    <section class="galeria" id="galeria">
+        <h4>GALLERY</h4>
+        <div class="carrusel">
+            <button class="prev" onclick="moverCarrusel(-1)">
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <div class="contenedor-galeria">
+                <div class="carrusel-imagenes">
+                    <img src="./imagenes/galeria1.png" alt="Imagen 1" class="imagen-carrusel img-movil">
+                    <img src="./imagenes/galeria2.png" alt="Imagen 2" class="imagen-carrusel img-movil">
+                    <img src="./imagenes/galeria3.png" alt="Imagen 3" class="imagen-carrusel img-movil">
+                    <img src="./imagenes/galeriapc1.png" alt="Imagen 1" class="imagen-carrusel img-pc">
+                    <img src="./imagenes/galeriapc2.png" alt="Imagen 2" class="imagen-carrusel img-pc">
+                    <img src="./imagenes/galeriapc3.png" alt="Imagen 3" class="imagen-carrusel img-pc">
+                </div>
+                <div class="puntos-carrusel">
+                    <span class="punto activo" onclick="irALaImagen(0)"></span>
+                    <span class="punto" onclick="irALaImagen(1)"></span>
+                    <span class="punto" onclick="irALaImagen(2)"></span>
+                </div>
+            </div>
+            <button class="next" onclick="moverCarrusel(1)">
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+        </div>
+    </section>       
+    <section class="encuentranos" id="encuentranos">
+        <div class="sec-encuentranos">
+            <div class="encuentranos-izq">
+                <h5 class="h6">FIND US</h5>
+                <div class="div-contacto">
+                    <div class="info-contacto">
+                        <img src="./imagenes/ubicacion.png" alt="Ícono Ubicación" class="icono-contacto">
+                        <p class="p-contacto">Almirante Simpson 232, Coyhaique, Chile</p>
+                    </div>
+                    <div class="info-contacto">
+                        <img src="./imagenes/telefono.png" alt="Ícono teléfono" class="icono-contacto">
+                        <p class="p-numero">9 7341 7305</p>
+                    </div>
+                </div>
+                <div class="bg-maps">
+                    <div class="cafe-background"></div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2983883.2878471157!2d-74.72768891680356!3d-43.08457756631863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdf2c52dc365b495%3A0xec79518ab689ead2!2sLa%20Pica%20Campesina!5e0!3m2!1ses!2scl!4v1725497286866!5m2!1ses!2scl" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+                </div>
+            </div>
+            <div class="horarios">
+                <div class="div-horarios">
+                    <div class="titulo-horarios">
+                        <img src="./imagenes/punto-blanco.png" alt="Ícono título" class="punto-blanco-horario">
+                        <p class="p-horarios">OPENING HOURS</p>
+                        <img src="./imagenes/punto-blanco.png" alt="Ícono título" class="punto-blanco-horario">
+                    </div>
+                    <div class="content-horario">
+                        <p>Monday to Saturday</p>
+                        <p>10:00 AM - 22:00 PM</p>
+                    </div>
+                    <div class="content-horario">
+                        <p>Sunday</p>
+                        <p>11:00 AM - 17:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rrss" id="rrsscv  ">
+            <p>Follow us on social media:</p>
+            <div class="iconos-rrss">
+                <img src="./imagenes/facebook.png" alt="Facebook" class="img-rrss">
+                <img src="./imagenes/instagram.png" alt="Instagram" class="img-rrss">
+            </div>
+        </div>
+    </section>
+    <section class="encuentranos-movil" id="encuentranos">
+            <h6>FIND US</h6>
+            <div class="div-contacto">
+                <div class="info-contacto">
+                    <img src="./imagenes/ubicacion.png" alt="Ícono Ubicación" class="icono-contacto">
+                    <p class="p-contacto">Almirante Simpson 232, Coyhaique</p>
+                </div>
+                <div class="info-contacto">
+                    <img src="./imagenes/telefono.png" alt="Ícono teléfono" class="icono-contacto">
+                    <p class="p-numero">9 7341 7305</p>
+                </div>
+            </div>
+            <div class="bg-maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2983883.2878471157!2d-74.72768891680356!3d-43.08457756631863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdf2c52dc365b495%3A0xec79518ab689ead2!2sLa%20Pica%20Campesina!5e0!3m2!1ses!2scl!4v1725497286866!5m2!1ses!2scl" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+            </div>
+            <div class="horarios-movil">
+                <p class="p-horarios">OPENING HOURS</p>
+                <p class="p-horarios-m">Monday to Saturday: 10:00 AM - 22:00 PM</p>
+                <p class="p-horarios-m">Sunday: 11:00 AM - 17:00 PM</p>
+            </div>
+        <div class="rrss" id="rrsscv  ">
+            <p>Follow us on social media:</p>
+            <div class="iconos-rrss">
+                <img src="./imagenes/facebook.png" alt="Facebook" class="img-rrss">
+                <img src="./imagenes/instagram.png" alt="Instagram" class="img-rrss">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <button id="scrollToTopBtn" class="boton-scroll" aria-label="Subir al inicio">
+            <img src="./imagenes/scroll.png" alt="Subir" class="boton-subir">
+        </button>
+        <p class="p-footer">© Restaurant La Pica 2024. Developed by Virtual Code.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>   
+    <script src="https://static.elfsight.com/platform/platform.js" async></script>
+    <script>
+        document.getElementById("scrollToTopBtn").addEventListener("click", function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
