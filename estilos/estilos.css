@@ -677,6 +677,11 @@ h6 {
         overflow-x: hidden;  /* Asegura que los elementos internos no se desborden */
     }
 
+    .whatsapp-container {
+        right: 70px;
+        bottom: 110px;
+        z-index: 10000000;
+    }
     /*inicio - nav bar*/
 
     .carta-movil-nav {
