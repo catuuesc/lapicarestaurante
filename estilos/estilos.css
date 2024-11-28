@@ -668,8 +668,8 @@ h6 {
     /*inicio - nav bar*/
 
     .inicio {
-        width: 110vw;
-        height: 110vh;
+        width: 100vw;
+        height: 100vh;
     }
 
     .menu-icon {
@@ -779,7 +779,7 @@ h6 {
     }
 
     .img-nosotros {
-        width: 110vw;
+        width: 100vw;
         display: flex;
         justify-content: center;
     }
@@ -886,7 +886,7 @@ h6 {
     }
 
     .galeria {
-        width: 110vw;
+        width: 100vw;
         height: 100vh;
         display: flex;
         flex-direction: column;
