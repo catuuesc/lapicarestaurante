@@ -1,0 +1,95 @@
+.carta {
+    width: 100%;
+    height: 100vh;
+    padding: 70px 100px;
+
+    h4, .h4 {
+        font-family: "Tenor Sans", sans-serif;
+        font-size: 80px !important;
+        width: 100%;
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .menus {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        .menu-container {
+            position: relative; 
+            overflow: hidden;
+            width: 335px;
+            height: 355px;
+            margin-top: 100px;
+            border-radius: 20px;
+
+            .img-wrapper {
+                .img-cartas {
+                    width: 100%;
+                    height: 100%;
+                    filter: brightness(0.6);
+                    border-radius: 20px;
+                    transition: transform 0.3s ease, filter 0.3s ease;
+                }
+
+                .text-overlay {
+                    width: 100%;
+                    height: 20%;
+                    background-color: rgba(255, 255, 255, 0.38);
+                    position: absolute;
+                    color: white;
+                    text-align: start;
+                    font-family: 'Cormorant Garamond', serif;
+                    transition: opacity 0.3s ease;
+                    display: flex;
+                    flex-direction: column;
+                    bottom: 0px;
+                    justify-content: center;
+                    padding-left: 20px;
+
+                    .titulo-menu {
+                        margin: 0px;
+                        font-family: 'Cormorant Garamond', serif;
+                        font-weight: 800;
+                        font-size: 20px;
+                    }
+
+                    .p-menu {
+                        margin: 0px;
+                        font-family: 'Cormorant Garamond', serif;
+                    }
+                }
+            }
+        }
+        .almuerzo {
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+    }
+}
+
+.img-wrapper:hover .img-cartas {
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+    filter: brightness(1);
+    border-radius: 20px;
+}
+
+.bebestibles:hover {
+    filter: brightness(1.5);
+    transition: filter 0.5s ease;
+}
+
+.bebestibles { 
+    background-color: #713931;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+.galeria-movil {
+    width: 100%;
+    height: 100vh;
+    padding: 70px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    display: none;
+
+    .h5 {
+        font-family: "Tenor Sans", sans-serif;
+        font-size: 80px !important;
+        width: 100%;
+        display: flex;
+
+    }
+    .carrusel-movil {
+        display: flex;
+        align-items: center;
+        width: 70%;
+        height: 80%;
+        position: relative;
+        overflow: hidden;
+
+        .contenedor-galeria-movil {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+
+            .carrusel-imagenes-movil {
+                display: flex;
+                width: 100%;
+                transition: transform 0.5s ease-in-out;
+            }
+        }
+    }
+}

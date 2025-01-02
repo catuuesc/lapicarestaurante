@@ -1,0 +1,37 @@
+@media only screen and (max-width: 1024px) {
+    .sobre-nosotros {
+        width: 100%;
+        height: auto !important;
+
+        .texto-nosotros {
+            flex-direction: column;
+            margin: 50px 0px 0px 0px;
+    
+            h3 {
+                text-align: center;
+                font-size: 45px !important;
+                width: 100vw;
+            }
+
+            .p-nosotros {
+                padding: 40px;
+                text-align: center;
+                font-size: 20px;
+            }
+        }
+        .img-nosotros {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+    
+            .equipo {
+                width: 300px;
+                height: 250px;
+            }
+
+            .equipo2 {
+                display: none;
+            }
+        }
+    }
+}

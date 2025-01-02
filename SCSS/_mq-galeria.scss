@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1024px) {
+    .galeria {
+        display: none;
+    }
+
+    .galeria-movil {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 50px 20px !important;
+
+        .h5 {
+            font-size: 45px !important;
+            justify-content: center;
+            margin-bottom: 20px !important;
+            width: 100%;
+        }
+
+        .carrusel-movil {
+            position: relative;
+            width: 100%;
+            height: calc(100vh - 30px); /* Espacio restante después del título */
+            display: flex;
+            justify-content: center;
+        }
+
+            .prev {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 70px;
+                border: none;
+                padding: 10px;
+                cursor: pointer;
+                z-index: 10;
+                left: 10px;
+                background-color: transparent;
+                color: rgba(0, 0, 0, 0.601);
+            }
+
+            .contenedor-galeria-movil {
+                position: relative;
+                width: 454px;
+                height: 807px;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                max-width: 460px;
+
+                .carrusel-imagenes-movil {
+                    display: flex;
+                    width: 100%; 
+                    height: 100%;
+                    transition: transform 0.5s ease-in-out;
+
+                    .imagen-carrusel-movil {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        
+                    }
+                }
+                .puntos-movil {
+                    position: absolute;
+                    bottom: 10px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    display: flex;
+                    gap: 5px;
+
+                    .punto-movil {
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        background-color: rgba(255, 255, 255, 0.5);
+                        cursor: pointer;
+                    }
+                    
+                    .activo {
+                        background-color: rgba(255, 255, 255, 1);
+                    }
+                }
+            }
+            .next {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 70px;
+                border: none;
+                padding: 10px;
+                cursor: pointer;
+                z-index: 10;
+                right: 10px;
+                background-color: transparent;
+                color: rgba(0, 0, 0, 0.601);
+            }
+    }
+}

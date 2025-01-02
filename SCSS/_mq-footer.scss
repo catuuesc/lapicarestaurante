@@ -1,0 +1,20 @@
+@media only screen and (max-width: 1024px) {
+    footer {
+        width: 100%;
+        flex-direction: column;
+        background-color: #e5dedb;
+        padding: 40px 20px 60px 20px;
+
+        .boton-scroll {
+            position: relative;
+            padding: 0px;
+            left: 0px;
+            margin-bottom: 5px;
+        }
+    
+        .p-footer {
+            text-align: center;
+            padding: 0px !important;
+        }
+    }
+}

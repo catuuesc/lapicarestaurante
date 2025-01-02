@@ -1,0 +1,35 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    font-weight: 100;
+    background-color: #e5dedb;
+    width: 100%;
+
+    .boton-scroll {
+        border-color: white !important;
+        box-shadow: none;
+        border: 0px;
+        padding: 0px;
+        background-color: transparent;
+        padding-left: 40px;
+        position: absolute;
+        left: 40px;
+
+        .boton-subir {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    .p-footer {
+        margin: 0px;
+        padding: 60px;
+    }
+
+    .boton-subir:hover {
+        filter: brightness(1.5);
+    }
+}

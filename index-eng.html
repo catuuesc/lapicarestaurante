@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="./estilos/estilos.css">
+    <link rel="stylesheet" href="./CSS/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,7 +42,7 @@
                         <a href="#carta" class="link-nav">Menu</a>
                     </li>
                     <li>
-                        <a href="#galeria" class="link-nav">Galery</a>
+                        <a href="#galeria" class="link-nav">Gallery</a>
                     </li>
                     <li class="ubicacion-nav">
                         <a href="encuentranos" class="link-nav">Location</a>
@@ -70,7 +70,7 @@
             </div>
         </div>
         <div class="fixed-buttons">
-            <a href="" target="_blank" class="whatsapp-container">
+            <a href="https://wa.link/hp429n" target="_blank" class="whatsapp-container">
                 <span class="whatsapp-message">Hello, let's talk! <span class="emoji">😊</span></span>
                 <img class="whatsapp" src="./imagenes/whatsapp.png" alt="WhatsApp">
             </a>
@@ -87,14 +87,14 @@
         </div>
         <div  class="img-nosotros">
             <img src="./imagenes/nosotros1.png" alt="Equipo" class="equipo">
-            <img src="./imagenes/nosotros1.png" alt="Equipo" class="equipo equipo2">
+            <img src="./imagenes/nosotros2.png" alt="Equipo" class="equipo equipo2">
         </div>
     </section>
     <section class="carta" id="menu">
         <p class="h4">MENU</p>
         <div class="menus">
             <div class="menu-container">
-                <a href="./carta/Desayunos.pdf" target="_blank" class="img-wrapper" rel="noopener noreferrer">
+                <a href="./carta/ENG/breakfast.pdf" target="_blank" class="img-wrapper" rel="noopener noreferrer">
                     <img src="./imagenes/desayunos.png" alt="Menú de Desayunos" class="img-cartas">
                     <div class="text-overlay">
                         <p class="titulo-menu">BREAKFAST</p>
@@ -104,7 +104,7 @@
             </div>
             <div class="almuerzo"> 
                 <div class="menu-container">
-                    <a href="./carta/Almuerzos.pdf" target="_blank" class="img-wrapper" rel="noopener noreferrer">
+                    <a href="./carta/ENG/lunch.pdf" target="_blank" class="img-wrapper" rel="noopener noreferrer">
                         <img src="./imagenes/almuerzos.png" alt="Menú de Desayunos" class="img-cartas">
                         <div class="text-overlay">
                             <p class="titulo-menu">LUNCH</p>
@@ -112,10 +112,10 @@
                         </div>
                     </a>
                 </div>
-                <a href="./carta/bebidas.pdf" class="bebestibles" rel="noopener noreferrer">Drinks & Cocktails</a>
+                <a href="./carta/ENG/drinks.pdf" class="bebestibles" rel="noopener noreferrer">Drinks & Cocktails</a>
             </div>
             <div class="menu-container">
-                <a href="./carta/Extras.pdf" target="_blank" class="img-wrapper" rel="noopener noreferrer">
+                <a href="./carta/ENG/drinks.pdf" target="_blank" class="img-wrapper" rel="noopener noreferrer">
                     <img src="./imagenes/extras.png" alt="Menú de Desayunos" class="img-cartas">
                     <div class="text-overlay">
                         <p class="titulo-menu">EXTRAS</p>
@@ -157,22 +157,23 @@
         </div>
     </section>
     <section class="comentarios" id="comentarios">
-        <div class="elfsight-app-f3b38fe2-fb06-4954-a039-fa009a241b05" data-elfsight-app-lazy></div>
+        <p class="titulo-reseñas">REVIEWS</p>
+        <script src="https://widget.trustmary.com/EcveIWeCw"></script>
     </section>
     <section class="galeria" id="galeria">
-        <h4>GALLERY</h4>
+        <h5>GALLERY</h5>
         <div class="carrusel">
             <button class="prev" onclick="moverCarrusel(-1)">
                 <i class="fa-solid fa-angle-left"></i>
             </button>
             <div class="contenedor-galeria">
                 <div class="carrusel-imagenes">
-                    <img src="./imagenes/galeria1.png" alt="Imagen 1" class="imagen-carrusel img-movil">
-                    <img src="./imagenes/galeria2.png" alt="Imagen 2" class="imagen-carrusel img-movil">
-                    <img src="./imagenes/galeria3.png" alt="Imagen 3" class="imagen-carrusel img-movil">
                     <img src="./imagenes/galeriapc1.png" alt="Imagen 1" class="imagen-carrusel img-pc">
                     <img src="./imagenes/galeriapc2.png" alt="Imagen 2" class="imagen-carrusel img-pc">
                     <img src="./imagenes/galeriapc3.png" alt="Imagen 3" class="imagen-carrusel img-pc">
+                    <img src="./imagenes/galeriapc4.png" alt="Imagen 4" class="imagen-carrusel img-pc">
+                    <img src="./imagenes/galeriapc5.png" alt="Imagen 5" class="imagen-carrusel img-pc">
+                    <img src="./imagenes/galeriapc6.png" alt="Imagen 6" class="imagen-carrusel img-pc">
                 </div>
                 <div class="puntos-carrusel">
                     <span class="punto activo" onclick="irALaImagen(0)"></span>
@@ -184,11 +185,40 @@
                 <i class="fa-solid fa-angle-right"></i>
             </button>
         </div>
-    </section>       
+    </section>
+    <section class="galeria-movil" id="galeria-movil">
+        <p class="h5">GALLERY</p>
+        <div class="carrusel-movil">
+            <button class="prev" onclick="moverCarruselMovil(-1)">
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <div class="contenedor-galeria-movil">
+                <div class="carrusel-imagenes-movil">
+                    <img src="./imagenes/galeria1.png" alt="Imagen 1" class="imagen-carrusel-movil">
+                    <img src="./imagenes/galeria2.png" alt="Imagen 2" class="imagen-carrusel-movil">
+                    <img src="./imagenes/galeria3.png" alt="Imagen 3" class="imagen-carrusel-movil">
+                    <img src="./imagenes/galeria4.png" alt="Imagen 4" class="imagen-carrusel-movil">
+                    <img src="./imagenes/galeria5.png" alt="Imagen 5" class="imagen-carrusel-movil">
+                    <img src="./imagenes/galeria6.png" alt="Imagen 6" class="imagen-carrusel-movil">
+                </div>
+                <div class="puntos-movil">
+                    <span class="punto-movil activo" onclick="irALaImagenMovil(0)"></span>
+                    <span class="punto-movil" onclick="irALaImagenMovil(1)"></span>
+                    <span class="punto-movil" onclick="irALaImagenMovil(2)"></span>
+                    <span class="punto-movil" onclick="irALaImagenMovil(3)"></span>
+                    <span class="punto-movil" onclick="irALaImagenMovil(4)"></span>
+                    <span class="punto-movil" onclick="irALaImagenMovil(5)"></span>
+                </div>
+            </div>
+            <button class="next" onclick="moverCarruselMovil(1)">
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+        </div>
+    </section>          
     <section class="encuentranos" id="encuentranos">
         <div class="sec-encuentranos">
             <div class="encuentranos-izq">
-                <h5 class="h6">FIND US</h5>
+                <P class="h6">FIND US</P>
                 <div class="div-contacto">
                     <div class="info-contacto">
                         <img src="./imagenes/ubicacion.png" alt="Ícono Ubicación" class="icono-contacto">
@@ -225,8 +255,12 @@
         <div class="rrss" id="rrsscv  ">
             <p>Follow us on social media:</p>
             <div class="iconos-rrss">
-                <img src="./imagenes/facebook.png" alt="Facebook" class="img-rrss">
-                <img src="./imagenes/instagram.png" alt="Instagram" class="img-rrss">
+                <a href="https://www.facebook.com/lapicada.campesina" target="_blank" class="link-rrss">
+                    <img src="./imagenes/facebook.png" alt="Facebook" class="img-rrss">
+                </a>
+                <a href="https://www.instagram.com/lapica_restaurant/" target="_blank" class="link-rrss">
+                    <img src="./imagenes/instagram.png" alt="Instagram" class="img-rrss">
+                </a>
             </div>
         </div>
     </section>
@@ -253,8 +287,12 @@
         <div class="rrss" id="rrsscv  ">
             <p>Follow us on social media:</p>
             <div class="iconos-rrss">
-                <img src="./imagenes/facebook.png" alt="Facebook" class="img-rrss">
-                <img src="./imagenes/instagram.png" alt="Instagram" class="img-rrss">
+                <a href="https://www.facebook.com/lapicada.campesina" target="_blank" class="link-rrss">
+                    <img src="./imagenes/facebook.png" alt="Facebook" class="img-rrss">
+                </a>
+                <a href="https://www.instagram.com/lapica_restaurant/" target="_blank" class="link-rrss">
+                    <img src="./imagenes/instagram.png" alt="Instagram" class="img-rrss">
+                </a>
             </div>
         </div>
     </section>
